@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5, body, html {
   text-align: center;
 }
 
+span[onclick="confirm();"] {
+  background: lightpink;
+  border: 2px solid pink;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-bottom: 2px;
+}
+
 span[onclick="truth();"] {
   background: lightskyblue;
   border: 2px solid skyblue;

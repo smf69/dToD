@@ -29,3 +29,7 @@ span[onclick="dare();"] {
 span#output {
   margin: 0 7px;
 }
+
+.hidden {
+  display: none;
+}

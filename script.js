@@ -27,7 +27,13 @@ const truths = [
 "Have you ever taken it in the butt, would you?",
 "What is your biggest fear in a relationship?",
 "How would you go about turning someone on?",
-"Does size matter?"
+"Does size matter?",
+"Would you eat someone out?",
+"If you could pick a current friend to be \"friends with benefits\" with, who would it be?",
+"Would you let someone sit on your face?",
+"What's the biggest you'll go?",
+"What's the smallest you'll go?",
+"Tits or Ass?"
 ];
 
 const dares = [
@@ -57,19 +63,30 @@ const dares = [
 "Show part of your buttocks so another player can draw a smiley on it.",
 "Give a player a hickey in your place of choice (even if your a guy).",
 "(If you're up to it) sit naked for the next 3 rounds.",
-"Swap an article of clothing with the player on your left."
+"Swap an article of clothing with the player on your left.",
+"Guess the size of another player's breasts/penis.",
+"Fuck it, just have sex or something.",
+"Guess the condom size of another player."
 ];
 
-function output(list) {
-  
+function output(title,list) {
+
 let max, item, result;
+
+result=title+": "
+
 max=list.length;
 item=Math.floor(Math.random()*Math.floor(max));
-result=list[item];
+result+=list[item];
   
 document.getElementById("output").innerHTML = result;
   
 }
 
-function truth() { output(truths); }
-function dare() { output(dares); }
+function truth() { output("Truth",truths); }
+function dare() { output("Dare",dares); }
+
+function or() {
+let id=Math.floor(Math.random()*Math.floor(2));
+if (id==0) { truth(); }
+else { dare(); }

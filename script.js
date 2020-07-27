@@ -91,3 +91,8 @@ let id=Math.floor(Math.random()*Math.floor(2));
 if (id==0) { truth(); }
 else { dare(); }
 }
+
+function confirm() {
+document.getElementById("warn").classList.add("hidden");
+document.getElementById("main").classList.remove("hidden");
+}

@@ -90,3 +90,4 @@ function or() {
 let id=Math.floor(Math.random()*Math.floor(2));
 if (id==0) { truth(); }
 else { dare(); }
+}

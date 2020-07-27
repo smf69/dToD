@@ -1,0 +1,31 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width:100%;
+  min-height:100%;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, body, html {
+  text-align: center;
+}
+
+span[onclick="truth();"] {
+  background: lightskyblue;
+  border: 2px solid skyblue;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-bottom: 2px;
+}
+
+span[onclick="dare();"] {
+  background: lightcoral;
+  border: 2px solid coral;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+span#output {
+  margin: 0 7px;
+}

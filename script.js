@@ -18,7 +18,16 @@ const truths = [
 "What's your favorite body part on yourself or another person?",
 "Who here would you want to sleep with?",
 "Who would fuck, marry, kill?",
-"Would you rather have sex in a pool, hot tub, or shower?"
+"Would you rather have sex in a pool, hot tub, or shower?",
+"Do you believe in love at first sight?",
+"Do you like giving/receiving anal?",
+"Do you like giving/receiving oral?",
+"Do you like giving/receiving vaginal?",
+"How often do you think about sex?",
+"Have you ever taken it in the butt, would you?",
+"What is your biggest fear in a relationship?",
+"How would you go about turning someone on?",
+"Does size matter?"
 ];
 
 const dares = [
@@ -40,7 +49,15 @@ const dares = [
 "Get another member horny.",
 "Take off your shirt for the rest of the game.",
 "T-Pose in your underwear.",
-"In front of the group, turn all of your clothes inside out."
+"In front of the group, turn all of your clothes inside out.",
+"\"Ride\" someone with clothes on.",
+"Mime a sex act and have others guess it.",
+"Show how you would turn someone on.",
+"Take off a piece of clothing for the next 3 rounds.",
+"Show part of your buttocks so another player can draw a smiley on it.",
+"Give a player a hickey in your place of choice (even if your a guy).",
+"(If you're up to it) sit naked for the next 3 rounds.",
+"Swap an article of clothing with the player on your left."
 ];
 
 function output(list) {

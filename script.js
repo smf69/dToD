@@ -65,7 +65,7 @@ const dares = [
 "(If you're up to it) sit naked for the next 3 rounds.",
 "Swap an article of clothing with the player on your left.",
 "Guess the size of another player's breasts/penis.",
-"Fuck it, just have sex or something.",
+"Fuck it, just have sex or something idk.",
 "Guess the condom size of another player."
 ];
 
